@@ -37,7 +37,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 - [x] Steps 1 and 2 are explained inside the `src/components/header.js` file.
 - [x] Steps 3 and 4 are explained inside the `src/components/tabs.js` file.
-- [ ] Steps 5 and 6 are explained inside the `src/components/card.js` file.
+- [x] Steps 5 and 6 are explained inside the `src/components/card.js` file.
 
 **Important Notes:**
 
@@ -50,17 +50,37 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ## Submission format
 
-- [ ] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
-- [ ] Check Codegrade for automated feedback.
-- [ ] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
-- [ ] Any changes pushed after the deadline will not receive any feedback.
+- [x] Submit via Codegrade by committing and pushing any new changes to the *main* branch.
+- [x] Check Codegrade for automated feedback.
+- [x] Check Codegrade in the days following the Sprint Challenge for reviewer feedback.
+- [x] Any changes pushed after the deadline will not receive any feedback.
 
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is the DOM?
+
+Document Object Model 
+Document with a logical tree
+Each branch of the tree ends in a node
+Each node contains objects
+The DOM methods allow programmatic access to the tree; with these methods, you can change the document’s structure, style or content. 
+DOM is an object-based representation of the HTML. 
+
 2. What is an event?
+
+Every user interaction with a site is an event; a click, a mouseover, scrolling the page, pressing key on the keyboard. 
+
 3. What is an event listener?
+
+The tracking process and subsequent action we put an event listener on an element and give it a callback. When that even is triggered on the element, the callback is run.
+
 4. Why would we convert a NodeList into an Array?
+
+NodeList is an array-like object. It has access to two properties, the length property to get the total number of items and the numeric index. NodeList cannot access any other array methods like push(), pop(), slice() and join() so it needs to be converted into a normal array using the array.from() method. 
+
 5. What is a component?
+
+A component is several parts: HTML, CSS and JS brought together for reuse in a website or application. 
+
