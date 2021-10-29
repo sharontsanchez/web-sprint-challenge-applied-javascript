@@ -43,7 +43,7 @@ return headerDiv;
   //
 const headerAppender = (selector) => {
   const appendIt = document.querySelector(selector)
-  appendIt.appendChild(Header('Lambda Times', 'September 3,2021','75 F'))
+  appendIt.appendChild(Header('Lambda Times', 'October 29,2021','65 F'))
  };
 
 export { Header, headerAppender }
